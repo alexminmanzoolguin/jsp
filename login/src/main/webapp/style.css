@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    background-image: url('fondo.png');
+}
+
+.form-login{
+    width: 400px;
+    height: 340px;
+    background: #9AD58F;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #b1c2af;
+    padding: 20px 30px;
+    border-top: 4px solid #e7ebe7;
+    color: white;
+}
+
+.form-login h5{
+   margin: 0;
+   text-align: center;
+   height: 40px;
+   margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+}
+
+
+.controls{
+    width: 100%;
+    border: 1px solid #e7ebe7;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #121312;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+
+.bottons{
+    width: 100%;
+    height: 40;
+    background: #39ddd5;
+    border:none;
+    color: azure;
+    margin-bottom: 16px;
+}
+
+
+.form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+
+}
+
+.form-login a{
+    color: azure;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.form-login a:hover{
+    text-decoration: underline;
+}
