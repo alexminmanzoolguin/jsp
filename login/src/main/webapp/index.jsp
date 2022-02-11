@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <form action="usuario" method="post">
     <section class="form-login">
         <h5>FORMULARIO LOGIN</h5>
         <input class="controls" type="text" name="Usuario" value="" placeholder="Usuario">
@@ -15,5 +16,18 @@
         <input class="buttons" type="submit" name="" value="Ingresar" >
         <p><a href="#">¿Olvidaste tu Contrasena?</a></p>
     </section>
+        <div>
+			<p>
+				<%
+					String resultado = (String)request.getAttribute("mensaje");
+					String mensaje = "";
+					if (resultado != null) {
+						mensaje = resultado;
+					}
+				%>
+				<%=mensaje %>
+			</p>
+		</div>
+    </form>
 </body>
 </html>

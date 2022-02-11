@@ -15,7 +15,7 @@ public class Usuario{
     public String getusuario() {
         return usuario;
     }
-    public void setNombre(String usuario) {
+    public void setusuario(String usuario) {
         this.usuario = usuario;
     }
     
@@ -25,4 +25,5 @@ public class Usuario{
     public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
     }
+
 }
