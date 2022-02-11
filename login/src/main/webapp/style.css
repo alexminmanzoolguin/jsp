@@ -6,6 +6,11 @@
 body{
     font-family: Arial;
     background-image: url('fondo.png');
+    background-repeat:no-repeat;
+  background-position-x:center 40px;
+  background-position-y:center 40px;
+  background-size: 95rem;
+   
 }
 
 .form-login{
@@ -14,7 +19,7 @@ body{
     background: #9AD58F;
     margin: auto;
     margin-top: 180px;
-    box-shadow: 7px 13px 37px #b1c2af;
+    box-shadow: 7px 13px 37px #e8ffe5;
     padding: 20px 30px;
     border-top: 4px solid #e7ebe7;
     color: white;
@@ -32,22 +37,22 @@ body{
 
 .controls{
     width: 100%;
-    border: 1px solid #e7ebe7;
+    border: 1px solid #e1eee1;
     margin-bottom: 15px;
     padding: 11px 10px;
-    background: #121312;
+    background: #819781;
     font-size: 14px;
     font-weight: bold;
 
 }
 
 
-.bottons{
+.buttons{
     width: 100%;
     height: 40;
-    background: #39ddd5;
+    background: #a4c5d4;
     border:none;
-    color: azure;
+    color: rgb(68, 116, 219);
     margin-bottom: 16px;
 }
 
