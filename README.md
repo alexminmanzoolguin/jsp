@@ -1,2 +1,2 @@
 # jsp
- pracrar proyectos con angular
+ prácticas proyectos con angular
